@@ -42,7 +42,6 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="Barbarian"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(0b29f065-a17d-4944-a183-880baaa11401,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="60bbcc97-5381-4898-bc15-908c072895de"/>
@@ -114,8 +113,6 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Barbarian"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP_Rank2"/>
-                    <attribute id="PassivesRemoved" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(63cb872f-9456-4a6f-be74-491cd179fa35,4,AbilityBoosts);SelectPassives(218a9472-75d8-4b85-8aba-7f9d9f628dca,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="60bbcc97-5381-4898-bc15-908c072895de"/>
@@ -579,7 +576,6 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="Bard"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(dcb45167-86bd-4297-9b9d-c295be51af5b,1,1,BardSpells);SelectPassives(7e7441d8-d019-4c81-89a1-ef77757d3d74,1,ClassFeat);SelectPassives(0b29f065-a17d-4944-a183-880baaa11401,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="229c98da-2cd1-4a5e-8051-9d90ec7931e7"/>
@@ -659,7 +655,6 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,5);ActionResource(SorceryPoint,1,0);"/>
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Bard"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP_Rank2"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(4c9674d7-b7a3-4a2f-be91-150d366d9d91,4,AbilityBoosts);SelectPassives(1dc0274c-477b-4c8c-8b22-c702e46bb288,1,ClassFeat);SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,1,1,BardSpells);SelectPassives(218a9472-75d8-4b85-8aba-7f9d9f628dca,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="229c98da-2cd1-4a5e-8051-9d90ec7931e7"/>
@@ -758,7 +753,6 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="Cleric"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(0b29f065-a17d-4944-a183-880baaa11401,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="64474b62-b4f5-46b3-b94a-c676c6da3116"/>
@@ -830,8 +824,6 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Cleric"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP_Rank2"/>
-                    <attribute id="PassivesRemoved" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(63cb872f-9456-4a6f-be74-491cd179fa35,4,AbilityBoosts);SelectPassives(218a9472-75d8-4b85-8aba-7f9d9f628dca,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="64474b62-b4f5-46b3-b94a-c676c6da3116"/>
@@ -1195,7 +1187,6 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="Druid"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(b8a82d23-b15a-49d4-af67-4292f922f840,1,ClassFeat);SelectPassives(0b29f065-a17d-4944-a183-880baaa11401,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="6e7b7bad-e122-4679-8b3c-8f8987a9d466"/>
@@ -1273,8 +1264,6 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,5)"/>
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Druid"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP_Rank2"/>
-                    <attribute id="PassivesRemoved" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(63cb872f-9456-4a6f-be74-491cd179fa35,4,AbilityBoosts);SelectPassives(e3c37aa5-a4b1-426e-b11c-1a10bed808d1,1,ClassFeat);SelectPassives(218a9472-75d8-4b85-8aba-7f9d9f628dca,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="6e7b7bad-e122-4679-8b3c-8f8987a9d466"/>
@@ -1384,7 +1373,6 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="Fighter"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(352f8ca1-5785-4f10-b839-21fed2e95ac8,1,ClassFeat);SelectPassives(0b29f065-a17d-4944-a183-880baaa11401,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f2947f971"/>
@@ -1456,8 +1444,6 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Fighter"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP_Rank2"/>
-                    <attribute id="PassivesRemoved" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(63cb872f-9456-4a6f-be74-491cd179fa35,4,AbilityBoosts);SelectPassives(1d5c2d4f-0bf0-4879-9d62-a94bacda81c0,1,ClassFeat);ReplacePassives(c866b96c-8a6c-4715-abb4-cdaa7119043a,1,CombatFlexChange);SelectPassives(218a9472-75d8-4b85-8aba-7f9d9f628dca,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f2947f971"/>
@@ -1590,7 +1576,6 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Paladin"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP_Rank2"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(63cb872f-9456-4a6f-be74-491cd179fa35,4,AbilityBoosts);SelectPassives(aae9ab12-6b43-4b6f-8808-6be1c097ecb4,1,ClassFeat);SelectPassives(218a9472-75d8-4b85-8aba-7f9d9f628dca,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="ba2afe85-acba-4ea1-a238-2b4543f47821"/>
@@ -1734,7 +1719,6 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="Ranger"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(e1962971-e81d-45fe-aea7-3736b429939c,1,ClassFeat);SelectPassives(0b29f065-a17d-4944-a183-880baaa11401,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="8f068974-ed32-43fc-a9d9-028be1c01a9c"/>
@@ -1806,8 +1790,6 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Ranger"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP_Rank2"/>
-                    <attribute id="PassivesRemoved" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(63cb872f-9456-4a6f-be74-491cd179fa35,4,AbilityBoosts);SelectPassives(24faa2e2-c4fe-48a5-9115-a9492f4074a2,1,ClassFeat);SelectPassives(218a9472-75d8-4b85-8aba-7f9d9f628dca,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="8f068974-ed32-43fc-a9d9-028be1c01a9c"/>
@@ -1885,7 +1867,6 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="Rogue"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(e6759625-a848-4a77-b506-d4e577a5e32c,1,ClassFeat);SelectPassives(a7ebbeef-e69d-47e3-9bd5-64282be8abdd,1,SkillExpertise);SelectPassives(0b29f065-a17d-4944-a183-880baaa11401,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="9a44e828-92db-4d6c-acbc-a4f8ef340415"/>
@@ -1958,8 +1939,6 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Rogue"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP_Rank2"/>
-                    <attribute id="PassivesRemoved" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(39ca6ce9-5cb9-458d-bdb9-6ddccd421541,1,SkillIncrease);SelectPassives(63cb872f-9456-4a6f-be74-491cd179fa35,4,AbilityBoosts);SelectPassives(7f4c9740-6cdd-4e7d-ae50-60cdc2afb038,1,ClassFeat);SelectPassives(218a9472-75d8-4b85-8aba-7f9d9f628dca,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="9a44e828-92db-4d6c-acbc-a4f8ef340415"/>
@@ -2054,7 +2033,6 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="Monk"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(1533a7f3-589c-46c9-8f99-6fcf9c93d6c4,1,ClassFeat);SelectPassives(0b29f065-a17d-4944-a183-880baaa11401,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e"/>
@@ -2125,8 +2103,6 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Monk"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP_Rank2"/>
-                    <attribute id="PassivesRemoved" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(63cb872f-9456-4a6f-be74-491cd179fa35,4,AbilityBoosts);SelectPassives(8c2c1527-3a3d-4382-8fe2-8c804cb74a3a,1,ClassFeat);SelectPassives(218a9472-75d8-4b85-8aba-7f9d9f628dca,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e"/>
@@ -2210,7 +2186,6 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="Sorcerer"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(0b29f065-a17d-4944-a183-880baaa11401,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d"/>
@@ -2289,8 +2264,6 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,5)"/>
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Sorcerer"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP_Rank2"/>
-                    <attribute id="PassivesRemoved" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(63cb872f-9456-4a6f-be74-491cd179fa35,4,AbilityBoosts);SelectPassives(218a9472-75d8-4b85-8aba-7f9d9f628dca,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d"/>
@@ -5003,7 +4976,6 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="Wizard"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(f8776122-8b18-46ae-b64a-52df3d0dffd5,1,ClassFeat);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,0);SelectPassives(0b29f065-a17d-4944-a183-880baaa11401,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="d18eda7e-4b7d-490d-9952-cd33a3c60479"/>
@@ -5082,8 +5054,6 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,5)"/>
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Wizard"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP_Rank2"/>
-                    <attribute id="PassivesRemoved" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(63cb872f-9456-4a6f-be74-491cd179fa35,4,AbilityBoosts);SelectPassives(a4cac355-20f7-4a3c-ac05-b17e3905e576,1,ClassFeat);SelectSpells(423ba380-9025-4a50-8e63-a1a03e10f9b1,1,0);SelectPassives(218a9472-75d8-4b85-8aba-7f9d9f628dca,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="d18eda7e-4b7d-490d-9952-cd33a3c60479"/>
@@ -5962,7 +5932,6 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="Warlock"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(a13a0873-9802-4db4-bec4-5eee5427ee85,1,ClassFeat);SelectPassives(0b29f065-a17d-4944-a183-880baaa11401,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="a7a958f1-d858-4021-9fa7-cf87e7d71377"/>
@@ -6039,8 +6008,6 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,5);ActionResource(SorceryPoint,1,0)"/>
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Warlock"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnarmedABP_Rank2"/>
-                    <attribute id="PassivesRemoved" type="LSString" value="UnarmedABP"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(63cb872f-9456-4a6f-be74-491cd179fa35,4,AbilityBoosts);SelectPassives(a3f31713-10bd-48d7-8cc4-73fa2e85b404,1,ClassFeat);SelectPassives(218a9472-75d8-4b85-8aba-7f9d9f628dca,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="a7a958f1-d858-4021-9fa7-cf87e7d71377"/>

@@ -563,6 +563,54 @@
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="Item_Bonus_2Fortitude;MAG_Force_SoulCatchingDamage_Passive;MAG_PHB_SoulCatching_ExtraEffect_Passive;" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ef13329b-d4f3-4f64-b82c-70e9a35fc0a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Handwraps_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bf036aaa-8c14-4ade-bec1-ff76d89e1d88" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ff893a55-66f5-4729-addf-dcb6502abcdd" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="35" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d047302c-5155-4212-848a-e00af9b869d5" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Handwraps_1S" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="102dbf9e-1226-41c7-8eb7-eb3a7de79ef9" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f40a03d9-dd87-467a-9d41-d3030d117f76" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="100" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b0ecd1d9-146c-4ba6-988d-0d9f85f2d0d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Handwraps_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="102dbf9e-1226-41c7-8eb7-eb3a7de79ef9" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d1081bb9-1fea-47db-8d1e-b204596577c5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1000" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a639b9dc-1bd7-4d12-82c5-6f3bc3e9ce73" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Handwraps_2GS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="102dbf9e-1226-41c7-8eb7-eb3a7de79ef9" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="42c047c0-1285-4106-8aa0-cc7fedce8654" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="2000" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF2F4F4F" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8cc95d16-9b31-4cb9-a2c0-a61e5e2f147b" />

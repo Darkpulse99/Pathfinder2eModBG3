@@ -2095,3 +2095,78 @@ function FieldOfRazorsDamage(damageType)
 	end
 	return ConditionResult(false)
 end
+
+function RunesApplicableWeapon()
+	local weapon = GetActiveWeapon()
+	return (~HasAnyTags({'NORUNES', 'NOPROPERTYRUNES'},weapon) & ((HasAnyStatus({}, {'WEAPON_POTENCY','PROPERTY_RUNES_0'}, {},weapon) & StatusDurationEqualOrLessThan(weapon,'WEAPON_POTENCY',0)) | (HasAnyStatus({'WEAPON_POTENCY_2'}, {}, {'PROPERTY_RUNES_2'},weapon) & StatusDurationEqualOrLessThan(weapon,'WEAPON_POTENCY_2',0))))
+end
+
+function RunesApplicableHandwraps()
+	local handwraps = GetItemInEquipmentSlot(EquipmentSlot.Gloves)
+	return (~HasAnyTags({'NORUNES', 'NOPROPERTYRUNES'},handwraps) & ((HasAnyStatus({}, {'WEAPON_POTENCY','PROPERTY_RUNES_0'}, {},handwraps) & StatusDurationEqualOrLessThan(handwraps,'WEAPON_POTENCY',0)) | (HasAnyStatus({'WEAPON_POTENCY_2'}, {}, {'PROPERTY_RUNES_2'},handwraps) & StatusDurationEqualOrLessThan(handwraps,'WEAPON_POTENCY_2',0))))
+end
+
+function RunesApplicableArmor()
+	local armor = GetActiveArmor()
+	return (~HasAnyTags({'NORUNES', 'NOPROPERTYRUNES'},armor) & ((HasAnyStatus({}, {'ARMOR_POTENCY','PROPERTY_RUNES_0'}, {},armor) & StatusDurationEqualOrLessThan(armor,'ARMOR_POTENCY',0)) | (HasAnyStatus({'ARMOR_POTENCY_2'}, {}, {'PROPERTY_RUNES_2'},armor) & StatusDurationEqualOrLessThan(armor,'ARMOR_POTENCY_2',0))))
+end
+
+function UnarmedPotency(amount)
+    local handwraps = GetItemInEquipmentSlot(EquipmentSlot.Gloves)
+
+    local potency1 = Tagged('WPN_RUNE_1', handwraps)
+    local potency2 = Tagged('WPN_RUNE_2', handwraps)
+   
+	if amount == 1 and (potency1 & ~potency2).Result then
+        return ConditionResult(true)
+    elseif amount == 2 and potency2.Result then
+        return ConditionResult(true)
+    end
+
+    return false
+end
+
+function UnarmedDice(amount)
+    local handwraps = GetItemInEquipmentSlot(EquipmentSlot.Gloves)
+
+    local striking = Tagged('WPN_RUNE_STRIKING', handwraps)
+    local greater = Tagged('WPN_RUNE_STRIKING_GREATER', handwraps)
+   
+	if amount == 1 and not (striking | greater).Result then
+        return ConditionResult(true)
+    elseif amount == 2 and (striking & ~greater).Result then
+        return ConditionResult(true)
+    elseif amount == 3 and greater.Result then
+        return ConditionResult(true)
+    end
+
+    return false
+end
+
+function HasImpactfulWeapon(entity)
+    local entity = entity or context.Target
+    local items = GetItemsInInventory(entity)
+    if items ~= nil then
+        for _, entity in ipairs(items.Items) do
+            if HasStatus('RUNE_IMPACTFUL',entity).Result then
+                return ConditionResult(true)
+            end
+        end
+    end
+
+    return ConditionResult(false)
+end
+
+function HasHolyWeapon(entity)
+    local entity = entity or context.Target
+    local items = GetItemsInInventory(entity)
+    if items ~= nil then
+        for _, entity in ipairs(items.Items) do
+            if HasStatus('RUNE_HOLY',entity).Result then
+                return ConditionResult(true)
+            end
+        end
+    end
+
+    return ConditionResult(false)
+end

@@ -242,7 +242,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="78094ea1-a35e-429b-bb49-af003528595d" />
         <field name="Name" type="NameTableFieldDefinition" value="WPN_Halberd" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
-        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Slashing" enumeration_type_name="Damage Type" version="1" />
+        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
         <field name="Damage" type="DiceTableFieldDefinition" value="1d10" />
         <field name="WeaponRange" type="IntegerTableFieldDefinition" value="400" />
         <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialMeleeWeapon" enumeration_type_name="Weapon Group" version="1" />
@@ -252,9 +252,9 @@
         <field name="Weight" type="FloatTableFieldDefinition" value="2.7" />
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Polearm)" />
-        <field name="Tags" type="StringTableFieldDefinition" value="WPN_D10;WPN_VERSATILE_P" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="Tag(WPN_D10);Tag(WPN_VERSATILE_P);" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="VersatileP;" />
+        <field name="Tags" type="StringTableFieldDefinition" value="WPN_D10;WPN_VERSATILE_S" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="Tag(WPN_D10);Tag(WPN_VERSATILE_S);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="VersatileS;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -487,7 +487,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7863804b-3979-4f18-917d-a8e10c273fd8" />
         <field name="Name" type="NameTableFieldDefinition" value="WPN_Morningstar" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
-        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
+        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
         <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
         <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialMeleeWeapon" enumeration_type_name="Weapon Group" version="1" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
@@ -575,7 +575,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WPN_Scimitar" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
         <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Slashing" enumeration_type_name="Damage Type" version="1" />
-        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
         <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialMeleeWeapon" enumeration_type_name="Weapon Group" version="1" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Finesse;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
         <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Scimitars;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
@@ -772,7 +772,7 @@
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="3" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Pick)" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="DeadlyD10" />
-        <field name="Tags" type="StringTableFieldDefinition" value="WPN_D8" />
+        <field name="Tags" type="StringTableFieldDefinition" value="WPN_D6" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="Tag(WPN_D6);" />
       </fields>
     </stat_object>
@@ -2492,7 +2492,7 @@
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="Tag(WPN_D8);Tag(WPN_RUNE_2);Tag(WPN_RUNE_STRIKING_GREATER);WeaponEnchantment(2);WeaponProperty(Magical);" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Hammer);UnlockSpell(Target_MAG_OrphicHammer_ChainBreaker);" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="Trait_Shove;MAG_SpellResistance_Passive;" />
         <field name="Damage" type="DiceTableFieldDefinition" value="3d8-2" />

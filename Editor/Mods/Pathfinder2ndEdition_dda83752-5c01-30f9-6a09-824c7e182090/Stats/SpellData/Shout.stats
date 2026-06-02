@@ -6572,7 +6572,6 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and ConcentrateSpell();" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf5bf1e7agb6f8g93a1g35e3gf25803ab4fad" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h30be28a7g7c14gb805g46eagee4439e21517" version="1" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hb16394bag2745g4be5g0ba5g795e1ebee9f6" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(AnimalClawsStatus,100,10)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_EnhanceAbilityCatsGrace_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Buff_EnhanceAbilityCatsGrace_L1to3" />
@@ -6599,7 +6598,6 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and ConcentrateSpell();" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h017105b4g1caagce6bg958fg76104295d07f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc030d652g8f07gb098g4905gac0cdf262600" version="1" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h0ff590a1g974eg65feg590cg550f1272ab2a" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(AnimalJawsStatus,100,10)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_EnhanceAbilityBearsEndurance_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Buff_EnhanceAbilityBearsEndurance_L1to3" />
@@ -6626,7 +6624,6 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and ConcentrateSpell();" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdb51e17ag7e48g9c17gb301g5c70348b8b45" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h127ac9beg61bdg279ag5a81g2277c9d1ed66" version="1" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h23a6d065g4925g09f0g8918gae6150aa5538" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(AnimalOwlEyesStatus,100,10)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_EnhanceAbilityOwlsWisdom_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Buff_EnhanceAbilityOwlsWisdom_L1to3" />
@@ -6654,7 +6651,6 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and ConcentrateSpell();" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h15e71e00g7168g459cg81b5g6eca996d6770" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9a2b4b02g448fgef2dg8182g984e2203428a" version="1" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf21f19a3g4ab5g9438g6fdfg7e1dfc77ecdc" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(AnimalWingsStatus,100,10)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_EnhanceAbilityEaglesSplendor_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Buff_EnhanceAbilityEaglesSplendor_L1to3" />
@@ -9253,6 +9249,34 @@
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanCastImpulse('Metal') and Combat() and RageConcentrateSpell();" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="021af240-4560-4231-b4e9-d931327ba96a" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="f9a05071-98c2-401b-bf12-eb8ae45fecac" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f434746d-b373-4c78-b1ec-3c8aa2172f17" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF483D8B" value="RUNES" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0adf0c5a-7ca9-4067-9cc5-8451e6359f69" />
+        <field name="Name" type="NameTableFieldDefinition" value="Serrating_Activate" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,SERRATING_ACTIVE,100,1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_EntropicWard" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h65dae3dag34fdgda68g48e6ga3644c1989f5" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb248a61eg6e42g3ca2g9e67g0ee55b628732" version="2" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SERRATING_ACTIVE,100,1);" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03114753-8d91-4c52-8207-728a67cdd59b,,;,,;51c06d74-c048-452a-a248-41a751728e3e,,;e9731a5c-e4ba-4872-8950-36d625061ec3,,;8fcb1f19-a84b-486d-81fa-098aaf7cc9be,,;,,;c5bd6ce6-281c-4314-9f74-9f7bb2f4cf03,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="d96a454e-eb9b-4be9-bbb3-d21fab4ded25" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_ArcaneRecovery" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_ArcaneRecovery" />
       </fields>
     </stat_object>
     <stat_object color="#FFFF00FF" is_substat="false">

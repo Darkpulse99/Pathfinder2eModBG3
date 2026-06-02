@@ -7658,6 +7658,23 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="RageConcentrateSpell();" />
       </fields>
     </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3912c570-03ef-4cdc-b0c3-9ed90cee48a3" />
+        <field name="Name" type="NameTableFieldDefinition" value="RUNES" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="302e9aea-903d-4513-afaa-4a15fd3b6258" />
+        <field name="Name" type="NameTableFieldDefinition" value="Rune_Shock_Critical" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RUNE_SHOCK_TECHNICAL,100,1);" />
+        <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not HasStatus('RUNE_SHOCK_TARGET');" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="4af71ae2-8ee7-422e-adcb-bafbdcdbf489" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF800000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d2ea3411-b4a3-4e86-99b0-03494c8146a6" />

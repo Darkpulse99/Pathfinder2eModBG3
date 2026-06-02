@@ -6766,6 +6766,19 @@ data "RequirementConditions" "CanCastHybridImpulse('Metal','Fire') and RageConce
 data "PrepareEffect" "153bd5cf-0c67-4cb3-9847-27019d659ab0"
 data "CastEffect" "fa32df5a-2f3a-41ee-b199-09922eb7abc9"
 
+new entry "Projectile_RUNES"
+type "SpellData"
+data "SpellType" "Projectile"
+
+new entry "Projectile_Rune_Shock_Critical"
+type "SpellData"
+data "SpellType" "Projectile"
+data "SpellProperties" "ApplyStatus(RUNE_SHOCK_TECHNICAL,100,1);"
+data "ExplodeRadius" "3"
+data "TargetConditions" "Character() and not Dead() and not HasStatus('RUNE_SHOCK_TARGET');"
+data "Trajectories" "4af71ae2-8ee7-422e-adcb-bafbdcdbf489"
+data "CastTextEvent" "Cast"
+
 new entry "Projectile_UNSORTED"
 type "SpellData"
 data "SpellType" "Projectile"
