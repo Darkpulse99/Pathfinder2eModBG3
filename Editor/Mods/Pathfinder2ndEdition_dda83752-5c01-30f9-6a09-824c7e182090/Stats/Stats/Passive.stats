@@ -2138,6 +2138,79 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(CallOnAncientBloodInterrupt);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="19b0f4e6-68f0-4892-a9e0-3295d481b4a3" />
+        <field name="Name" type="NameTableFieldDefinition" value="DraconicExemplar_Adamantine" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h49ae6551g596dg087ag1727g6e5339c43e07" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6b55ee4eg2203gcfd3ga287gf4cce8c9adef" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h2e4e79f7g14f8gea03g7be4g989fb1d87e4d" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Primal;Bludgeoning;Reflex" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a5dd762-d56f-4669-8e58-c9bd401e1a79" />
+        <field name="Name" type="NameTableFieldDefinition" value="DraconicExemplar_Conspirator" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="19b0f4e6-68f0-4892-a9e0-3295d481b4a3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7680269fg6c17g2174g46a0gaf3d498e0661" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Occult;Poison;Fortitude" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="45dbf07b-1abe-40be-9d27-3316601543eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="DraconicExemplar_Diabolic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="19b0f4e6-68f0-4892-a9e0-3295d481b4a3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0d46d492gb7f8gfa0fge055g03e2c175eeec" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Divine;Fire;Reflex" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2b553e4c-286f-457d-904a-2739038acf54" />
+        <field name="Name" type="NameTableFieldDefinition" value="DraconicExemplar_Empyreal" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="19b0f4e6-68f0-4892-a9e0-3295d481b4a3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb6f9d203g7a00gfdf8g93ceg89d6a428e7f5" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Divine;Spirit;Reflex" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a11a8f5-6830-4dad-8eb8-63bee9c38d96" />
+        <field name="Name" type="NameTableFieldDefinition" value="DraconicExemplar_Fortune" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="19b0f4e6-68f0-4892-a9e0-3295d481b4a3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc05d5587g7b3dg18afge32dg624d8cb1ff9b" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Arcane;Force;Reflex" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d70dd798-8a68-4bfa-a22e-806e242b8a73" />
+        <field name="Name" type="NameTableFieldDefinition" value="DraconicExemplar_Horned" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="19b0f4e6-68f0-4892-a9e0-3295d481b4a3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbc79b749g133dg3da3g46f5gf729687ba14c" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Primal;Poison;Fortitude" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d6d11382-88ea-423a-ae13-ac44eea5ab5a" />
+        <field name="Name" type="NameTableFieldDefinition" value="DraconicExemplar_Mirage" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="19b0f4e6-68f0-4892-a9e0-3295d481b4a3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h40033537gdeffgb598gdbedgd06c14e8ada3" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Arcane;Mental;Will" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="15df8484-edcb-4750-9718-47f49babd6b1" />
+        <field name="Name" type="NameTableFieldDefinition" value="DraconicExemplar_Omen" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="19b0f4e6-68f0-4892-a9e0-3295d481b4a3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdca4990fgfe22gb19cg9403g94ffde2a1265" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Occult;Mental;Will" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b30ad61a-c885-4f53-b50a-b29dc3d56336" />

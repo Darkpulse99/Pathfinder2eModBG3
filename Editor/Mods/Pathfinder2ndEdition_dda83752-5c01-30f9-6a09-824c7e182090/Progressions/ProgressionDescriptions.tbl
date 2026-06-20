@@ -729,5 +729,14 @@
         <field name="SelectorId" type="FixedStringTableFieldDefinition" value="SkillIncrease" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_69" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8268027d-8d48-4e2b-80de-4c2c17057eb8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h019bf289g44bcg0015g1148gca3edcef86b3" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h070f7c59g885fg740eg6a76g0a9aa3d439f7" version="2" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="DraconicExemplar" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

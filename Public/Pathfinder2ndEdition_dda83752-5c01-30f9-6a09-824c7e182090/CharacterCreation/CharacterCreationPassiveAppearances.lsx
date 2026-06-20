@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="8" revision="0" build="200"/>
+    <version major="4" minor="8" revision="0" build="500"/>
     <region id="CharacterCreationPassiveAppearances">
         <node id="root">
             <children>
@@ -1303,6 +1303,294 @@
                         </node>
                         <node id="ColorMaterialUUIDs">
                             <attribute id="Object" type="guid" value="8d86d68b-b08b-49cc-95a2-525cec5069e2"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationPassiveAppearance">
+                    <attribute id="Passive" type="FixedString" value="DraconicExemplar_Adamantine"/>
+                    <attribute id="UUID" type="guid" value="3225832e-6822-418a-9858-a9973f76d332"/>
+                    <children>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="70ec4180-d127-461c-9c11-802dcea8af20"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="f03b33ae-5d47-4cb5-80bc-ea06a3c55c96"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="2ec072c2-f2b7-4b8e-b021-4c5edd146980"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="73c8603e-69d0-449e-a330-b152747b7f47"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="1b7d9530-1f64-4163-8961-b1814e08fab4"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="435d4307-cbe9-44f8-9093-929a1c863dc4"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="f22ea525-1542-46eb-be84-ee6f770b91b2"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="01b8f978-9d33-4350-b506-e8b1f935c496"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="4e3c8d26-5c6a-4401-b531-3c51510e1735"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="5f2119ca-372d-4eb6-b774-5a31b1e8190b"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationPassiveAppearance">
+                    <attribute id="Passive" type="FixedString" value="DraconicExemplar_Conspirator"/>
+                    <attribute id="UUID" type="guid" value="6330c6aa-7faa-449c-b871-ee9a2deb0a0c"/>
+                    <children>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="73c8603e-69d0-449e-a330-b152747b7f47"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="1b7d9530-1f64-4163-8961-b1814e08fab4"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="70ec4180-d127-461c-9c11-802dcea8af20"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="f03b33ae-5d47-4cb5-80bc-ea06a3c55c96"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="2ec072c2-f2b7-4b8e-b021-4c5edd146980"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="943e5279-e058-43b1-94fb-16f3dbc32b7a"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="562adb3f-4691-4445-9d89-5ebf26d44e4d"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="16867cb2-7323-4619-9237-a87be0021409"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="777486e6-410b-43b9-992d-5eaf7bf9318b"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="7687d616-2ffe-46ae-a29a-99e01da1141a"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationPassiveAppearance">
+                    <attribute id="Passive" type="FixedString" value="DraconicExemplar_Diabolic"/>
+                    <attribute id="UUID" type="guid" value="4ff9423e-7b9f-426c-90b8-60ed1e574fb3"/>
+                    <children>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="1b7d9530-1f64-4163-8961-b1814e08fab4"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="70ec4180-d127-461c-9c11-802dcea8af20"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="f03b33ae-5d47-4cb5-80bc-ea06a3c55c96"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="2ec072c2-f2b7-4b8e-b021-4c5edd146980"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="73c8603e-69d0-449e-a330-b152747b7f47"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="745961d9-f5af-41b8-a90b-9b2ad506d9c4"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="a9923ddf-d6e7-4f80-a093-9444224dff1e"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="d06a885b-16b7-4798-8de2-43171eecb9d4"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="dd3d7beb-f13d-4596-8c0e-cd08443c6ecc"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="8d86d68b-b08b-49cc-95a2-525cec5069e2"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationPassiveAppearance">
+                    <attribute id="Passive" type="FixedString" value="DraconicExemplar_Empyreal"/>
+                    <attribute id="UUID" type="guid" value="5015f47c-008b-46d8-82ac-930b701c0df6"/>
+                    <children>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="2ec072c2-f2b7-4b8e-b021-4c5edd146980"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="73c8603e-69d0-449e-a330-b152747b7f47"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="1b7d9530-1f64-4163-8961-b1814e08fab4"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="70ec4180-d127-461c-9c11-802dcea8af20"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="f03b33ae-5d47-4cb5-80bc-ea06a3c55c96"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="99204bea-17c0-4a6f-ab03-77051999b860"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="a2a558a9-0df8-40c1-a7d7-181c1312f97a"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="42585c22-70b9-4a8c-b793-c51f816a4432"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="e5be448c-8518-4ba1-bcab-5912f257b14e"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="2ecc2c75-fbb9-46a8-9d5a-5d2f9f5df6ec"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationPassiveAppearance">
+                    <attribute id="Passive" type="FixedString" value="DraconicExemplar_Fortune"/>
+                    <attribute id="UUID" type="guid" value="ecbd859e-7c0f-4fd6-90de-dfb0150c3659"/>
+                    <children>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="2ec072c2-f2b7-4b8e-b021-4c5edd146980"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="73c8603e-69d0-449e-a330-b152747b7f47"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="1b7d9530-1f64-4163-8961-b1814e08fab4"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="70ec4180-d127-461c-9c11-802dcea8af20"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="f03b33ae-5d47-4cb5-80bc-ea06a3c55c96"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="34bcf580-e433-4157-9d61-9bc2bdb91eec"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="945f54d3-783b-4a07-b2a8-77cd567ca14c"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="fa818f03-a5a3-4905-be9a-654e7b8cd548"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="035b405f-f318-49fd-952b-4e2040fea7f9"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="1083e5fc-1ac5-41d9-aa6a-600851dfee9b"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationPassiveAppearance">
+                    <attribute id="Passive" type="FixedString" value="DraconicExemplar_Mirage"/>
+                    <attribute id="UUID" type="guid" value="e0472144-c4e0-4b3d-82b1-40a53ed00f6f"/>
+                    <children>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="2ec072c2-f2b7-4b8e-b021-4c5edd146980"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="73c8603e-69d0-449e-a330-b152747b7f47"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="1b7d9530-1f64-4163-8961-b1814e08fab4"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="70ec4180-d127-461c-9c11-802dcea8af20"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="f03b33ae-5d47-4cb5-80bc-ea06a3c55c96"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="34bcf580-e433-4157-9d61-9bc2bdb91eec"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="945f54d3-783b-4a07-b2a8-77cd567ca14c"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="fa818f03-a5a3-4905-be9a-654e7b8cd548"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="035b405f-f318-49fd-952b-4e2040fea7f9"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="1083e5fc-1ac5-41d9-aa6a-600851dfee9b"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationPassiveAppearance">
+                    <attribute id="Passive" type="FixedString" value="DraconicExemplar_Omen"/>
+                    <attribute id="UUID" type="guid" value="f246f3e2-4769-4fe1-bb1b-246d0912cdee"/>
+                    <children>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="1b7d9530-1f64-4163-8961-b1814e08fab4"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="70ec4180-d127-461c-9c11-802dcea8af20"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="f03b33ae-5d47-4cb5-80bc-ea06a3c55c96"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="2ec072c2-f2b7-4b8e-b021-4c5edd146980"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="73c8603e-69d0-449e-a330-b152747b7f47"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="b3f6d720-1998-4b18-9dfd-2b1bc8a7b1df"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="3aeb0b74-53a2-4fbc-b3cf-a5b9f3d69831"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="6c9f82a6-6a62-430e-9f24-3bb27999cc52"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="35318ab9-a4f0-457d-b1a2-8bf8d7a71b96"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="77dcb494-a0d9-4197-beef-8602a03f3a53"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationPassiveAppearance">
+                    <attribute id="Passive" type="FixedString" value="DraconicExemplar_Horned"/>
+                    <attribute id="UUID" type="guid" value="28e358f3-4c1b-4d74-8995-5053ab2591b2"/>
+                    <children>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="2ec072c2-f2b7-4b8e-b021-4c5edd146980"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="73c8603e-69d0-449e-a330-b152747b7f47"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="1b7d9530-1f64-4163-8961-b1814e08fab4"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="70ec4180-d127-461c-9c11-802dcea8af20"/>
+                        </node>
+                        <node id="AppearanceMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="f03b33ae-5d47-4cb5-80bc-ea06a3c55c96"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="34bcf580-e433-4157-9d61-9bc2bdb91eec"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="945f54d3-783b-4a07-b2a8-77cd567ca14c"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="fa818f03-a5a3-4905-be9a-654e7b8cd548"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="035b405f-f318-49fd-952b-4e2040fea7f9"/>
+                        </node>
+                        <node id="ColorMaterialUUIDs">
+                            <attribute id="Object" type="guid" value="1083e5fc-1ac5-41d9-aa6a-600851dfee9b"/>
                         </node>
                     </children>
                 </node>

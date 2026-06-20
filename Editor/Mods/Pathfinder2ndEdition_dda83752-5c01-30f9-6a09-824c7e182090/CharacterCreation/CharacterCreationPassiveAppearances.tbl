@@ -418,5 +418,77 @@
         <field name="ColorMaterialUUIDs" type="GuidListTableFieldDefinition" value="745961d9-f5af-41b8-a90b-9b2ad506d9c4;a9923ddf-d6e7-4f80-a093-9444224dff1e;d06a885b-16b7-4798-8de2-43171eecb9d4;dd3d7beb-f13d-4596-8c0e-cd08443c6ecc;8d86d68b-b08b-49cc-95a2-525cec5069e2" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_46" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3225832e-6822-418a-9858-a9973f76d332" />
+        <field name="Passive" type="FixedStringTableFieldDefinition" value="DraconicExemplar_Adamantine" />
+        <field name="AppearanceMaterialUUIDs" type="GuidListTableFieldDefinition" value="70ec4180-d127-461c-9c11-802dcea8af20;f03b33ae-5d47-4cb5-80bc-ea06a3c55c96;2ec072c2-f2b7-4b8e-b021-4c5edd146980;73c8603e-69d0-449e-a330-b152747b7f47;1b7d9530-1f64-4163-8961-b1814e08fab4" />
+        <field name="ColorMaterialUUIDs" type="GuidListTableFieldDefinition" value="435d4307-cbe9-44f8-9093-929a1c863dc4;f22ea525-1542-46eb-be84-ee6f770b91b2;01b8f978-9d33-4350-b506-e8b1f935c496;4e3c8d26-5c6a-4401-b531-3c51510e1735;5f2119ca-372d-4eb6-b774-5a31b1e8190b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_47" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6330c6aa-7faa-449c-b871-ee9a2deb0a0c" />
+        <field name="Passive" type="FixedStringTableFieldDefinition" value="DraconicExemplar_Conspirator" />
+        <field name="AppearanceMaterialUUIDs" type="GuidListTableFieldDefinition" value="73c8603e-69d0-449e-a330-b152747b7f47;1b7d9530-1f64-4163-8961-b1814e08fab4;70ec4180-d127-461c-9c11-802dcea8af20;f03b33ae-5d47-4cb5-80bc-ea06a3c55c96;2ec072c2-f2b7-4b8e-b021-4c5edd146980" />
+        <field name="ColorMaterialUUIDs" type="GuidListTableFieldDefinition" value="943e5279-e058-43b1-94fb-16f3dbc32b7a;562adb3f-4691-4445-9d89-5ebf26d44e4d;16867cb2-7323-4619-9237-a87be0021409;777486e6-410b-43b9-992d-5eaf7bf9318b;7687d616-2ffe-46ae-a29a-99e01da1141a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_48" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4ff9423e-7b9f-426c-90b8-60ed1e574fb3" />
+        <field name="Passive" type="FixedStringTableFieldDefinition" value="DraconicExemplar_Diabolic" />
+        <field name="AppearanceMaterialUUIDs" type="GuidListTableFieldDefinition" value="1b7d9530-1f64-4163-8961-b1814e08fab4;70ec4180-d127-461c-9c11-802dcea8af20;f03b33ae-5d47-4cb5-80bc-ea06a3c55c96;2ec072c2-f2b7-4b8e-b021-4c5edd146980;73c8603e-69d0-449e-a330-b152747b7f47" />
+        <field name="ColorMaterialUUIDs" type="GuidListTableFieldDefinition" value="745961d9-f5af-41b8-a90b-9b2ad506d9c4;a9923ddf-d6e7-4f80-a093-9444224dff1e;d06a885b-16b7-4798-8de2-43171eecb9d4;dd3d7beb-f13d-4596-8c0e-cd08443c6ecc;8d86d68b-b08b-49cc-95a2-525cec5069e2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_49" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5015f47c-008b-46d8-82ac-930b701c0df6" />
+        <field name="Passive" type="FixedStringTableFieldDefinition" value="DraconicExemplar_Empyreal" />
+        <field name="AppearanceMaterialUUIDs" type="GuidListTableFieldDefinition" value="2ec072c2-f2b7-4b8e-b021-4c5edd146980;73c8603e-69d0-449e-a330-b152747b7f47;1b7d9530-1f64-4163-8961-b1814e08fab4;70ec4180-d127-461c-9c11-802dcea8af20;f03b33ae-5d47-4cb5-80bc-ea06a3c55c96" />
+        <field name="ColorMaterialUUIDs" type="GuidListTableFieldDefinition" value="99204bea-17c0-4a6f-ab03-77051999b860;a2a558a9-0df8-40c1-a7d7-181c1312f97a;42585c22-70b9-4a8c-b793-c51f816a4432;e5be448c-8518-4ba1-bcab-5912f257b14e;2ecc2c75-fbb9-46a8-9d5a-5d2f9f5df6ec" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_50" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ecbd859e-7c0f-4fd6-90de-dfb0150c3659" />
+        <field name="Passive" type="FixedStringTableFieldDefinition" value="DraconicExemplar_Fortune" />
+        <field name="AppearanceMaterialUUIDs" type="GuidListTableFieldDefinition" value="2ec072c2-f2b7-4b8e-b021-4c5edd146980;73c8603e-69d0-449e-a330-b152747b7f47;1b7d9530-1f64-4163-8961-b1814e08fab4;70ec4180-d127-461c-9c11-802dcea8af20;f03b33ae-5d47-4cb5-80bc-ea06a3c55c96" />
+        <field name="ColorMaterialUUIDs" type="GuidListTableFieldDefinition" value="34bcf580-e433-4157-9d61-9bc2bdb91eec;945f54d3-783b-4a07-b2a8-77cd567ca14c;fa818f03-a5a3-4905-be9a-654e7b8cd548;035b405f-f318-49fd-952b-4e2040fea7f9;1083e5fc-1ac5-41d9-aa6a-600851dfee9b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_54" />
+        <field name="UUID" type="IdTableFieldDefinition" value="28e358f3-4c1b-4d74-8995-5053ab2591b2" />
+        <field name="Passive" type="FixedStringTableFieldDefinition" value="DraconicExemplar_Horned" />
+        <field name="AppearanceMaterialUUIDs" type="GuidListTableFieldDefinition" value="2ec072c2-f2b7-4b8e-b021-4c5edd146980;73c8603e-69d0-449e-a330-b152747b7f47;1b7d9530-1f64-4163-8961-b1814e08fab4;70ec4180-d127-461c-9c11-802dcea8af20;f03b33ae-5d47-4cb5-80bc-ea06a3c55c96" />
+        <field name="ColorMaterialUUIDs" type="GuidListTableFieldDefinition" value="34bcf580-e433-4157-9d61-9bc2bdb91eec;945f54d3-783b-4a07-b2a8-77cd567ca14c;fa818f03-a5a3-4905-be9a-654e7b8cd548;035b405f-f318-49fd-952b-4e2040fea7f9;1083e5fc-1ac5-41d9-aa6a-600851dfee9b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_52" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e0472144-c4e0-4b3d-82b1-40a53ed00f6f" />
+        <field name="Passive" type="FixedStringTableFieldDefinition" value="DraconicExemplar_Mirage" />
+        <field name="AppearanceMaterialUUIDs" type="GuidListTableFieldDefinition" value="2ec072c2-f2b7-4b8e-b021-4c5edd146980;73c8603e-69d0-449e-a330-b152747b7f47;1b7d9530-1f64-4163-8961-b1814e08fab4;70ec4180-d127-461c-9c11-802dcea8af20;f03b33ae-5d47-4cb5-80bc-ea06a3c55c96" />
+        <field name="ColorMaterialUUIDs" type="GuidListTableFieldDefinition" value="34bcf580-e433-4157-9d61-9bc2bdb91eec;945f54d3-783b-4a07-b2a8-77cd567ca14c;fa818f03-a5a3-4905-be9a-654e7b8cd548;035b405f-f318-49fd-952b-4e2040fea7f9;1083e5fc-1ac5-41d9-aa6a-600851dfee9b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_53" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f246f3e2-4769-4fe1-bb1b-246d0912cdee" />
+        <field name="Passive" type="FixedStringTableFieldDefinition" value="DraconicExemplar_Omen" />
+        <field name="AppearanceMaterialUUIDs" type="GuidListTableFieldDefinition" value="1b7d9530-1f64-4163-8961-b1814e08fab4;70ec4180-d127-461c-9c11-802dcea8af20;f03b33ae-5d47-4cb5-80bc-ea06a3c55c96;2ec072c2-f2b7-4b8e-b021-4c5edd146980;73c8603e-69d0-449e-a330-b152747b7f47" />
+        <field name="ColorMaterialUUIDs" type="GuidListTableFieldDefinition" value="b3f6d720-1998-4b18-9dfd-2b1bc8a7b1df;3aeb0b74-53a2-4fbc-b3cf-a5b9f3d69831;6c9f82a6-6a62-430e-9f24-3bb27999cc52;35318ab9-a4f0-457d-b1a2-8bf8d7a71b96;77dcb494-a0d9-4197-beef-8602a03f3a53" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -1410,6 +1410,13 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4316070b-40eb-467e-8d6b-5ca764d00286" />
+        <field name="Name" type="NameTableFieldDefinition" value="Draconic Exemplar" />
+        <field name="Passives" type="StringTableFieldDefinition" value="DraconicExemplar_Adamantine,DraconicExemplar_Conspirator,DraconicExemplar_Diabolic,DraconicExemplar_Empyreal,DraconicExemplar_Fortune,DraconicExemplar_Horned,DraconicExemplar_Mirage,DraconicExemplar_Omen" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="79edd56c-97eb-4bf8-813e-6783a7ad0213" />
         <field name="Name" type="NameTableFieldDefinition" value="Tiefling Feats Level 1" />
         <field name="Passives" type="StringTableFieldDefinition" value="FiendishLore,DragonSpit_Acid,DragonSpit_Electric,DragonSpit_Fire,DragonSpit_Frost,Darkvision,NaturalSkill,LightlyArmored,ModeratelyArmored,HeavilyArmored,CannyAcumenFortitude,CannyAcumenReflex,CannyAcumenWill,CannyAcumenPerception,FeatherStep,FastMovement,IncredibleInitiative,Pet,ShieldBlock,Tough,BattleMedicine,BonMot,CatFall,DirtyTrick,HeftyHauler,QuickJump,RootMagic,SkillTrainingAcrobatics,SkillTrainingArcana,SkillTrainingAthletics,SkillTrainingCrafting,SkillTrainingDeception,SkillTrainingDiplomacy,SkillTrainingIntimidation,SkillTrainingLore,SkillTrainingMedicine,SkillTrainingNature,SkillTrainingOccultism,SkillTrainingPerformance,SkillTrainingReligion,SkillTrainingSociety,SkillTrainingStealth,SkillTrainingSurvival,SkillTrainingThievery,StifleFlames,TerrainExpertise,TrickMagicItem,VirtuosicPerformer" />

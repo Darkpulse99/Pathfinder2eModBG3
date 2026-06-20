@@ -1932,7 +1932,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="PerceptionIncrease2;ReflexMaster;CritConvert_Evasion;WeaponSpecialization"/>
                     <attribute id="PassivesRemoved" type="LSString" value="ReflexExpert"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(78bf8f58-83d4-4ab6-82ef-ab8638a50724,1,GeneralFeat);SelectPassives(39ca6ce9-5cb9-458d-bdb9-6ddccd421541,1,SkillIncrease);SelectPassives(0b29f065-a17d-4944-a183-880b218a9472-75d8-4b85-8aba-7f9d9f628dcaaaa11401,1,SkillFeat)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(78bf8f58-83d4-4ab6-82ef-ab8638a50724,1,GeneralFeat);SelectPassives(39ca6ce9-5cb9-458d-bdb9-6ddccd421541,1,SkillIncrease);SelectPassives(218a9472-75d8-4b85-8aba-7f9d9f628dca,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="9a44e828-92db-4d6c-acbc-a4f8ef340415"/>
                     <attribute id="UUID" type="guid" value="ca43e06b-c2cb-46ab-a9cf-39852a903113"/>
                 </node>
@@ -6021,7 +6021,7 @@
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="Warlock"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(2e543e17-e481-49a4-a344-b92f6e1b1be0,1,ClassFeat);SelectPassives(0b29f065-a17d-4944-a183-880baaa114218a9472-75d8-4b85-8aba-7f9d9f628dca01,1,SkillFeat)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(2e543e17-e481-49a4-a344-b92f6e1b1be0,1,ClassFeat);SelectPassives(218a9472-75d8-4b85-8aba-7f9d9f628dca,1,SkillFeat)"/>
                     <attribute id="TableUUID" type="guid" value="a7a958f1-d858-4021-9fa7-cf87e7d71377"/>
                     <attribute id="UUID" type="guid" value="2de88333-157c-48e0-a965-e498af5413e7"/>
                 </node>
@@ -7617,6 +7617,31 @@
                     <attribute id="Selectors" type="LSString" value="SelectPassives(d3bf5a57-026c-4c52-877c-de2fdadae04a,1,AncestryFeat)"/>
                     <attribute id="TableUUID" type="guid" value="74e2e44d-e8c0-4b99-a6dc-c02f43cea8a6"/>
                     <attribute id="UUID" type="guid" value="698355b8-2f40-4114-818e-0094e1a7c6b5"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Dragonblood_Human"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Halfling_Brave"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(88c08d23-e9b1-4d58-9e20-30880ccde326,1,AncestryFeat);SelectPassives(4316070b-40eb-467e-8d6b-5ca764d00286,1,DraconicExemplar)"/>
+                    <attribute id="TableUUID" type="guid" value="9012fc15-4496-4057-b2f9-88611e8b55f6"/>
+                    <attribute id="UUID" type="guid" value="785b64db-4fa0-4cba-b05c-ae451c964cac"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="Dragonblood_Human"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(581cad8e-8252-4277-8ef2-111fa362c637,1,AncestryFeat)"/>
+                    <attribute id="TableUUID" type="guid" value="9012fc15-4496-4057-b2f9-88611e8b55f6"/>
+                    <attribute id="UUID" type="guid" value="e1209c16-c67e-4193-b963-07fbafa6c390"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="Dragonblood_Human"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(e8178ae3-5ce6-4e2c-a5e4-789b39407d70,1,AncestryFeat)"/>
+                    <attribute id="TableUUID" type="guid" value="9012fc15-4496-4057-b2f9-88611e8b55f6"/>
+                    <attribute id="UUID" type="guid" value="381d483e-9dbb-4c78-984f-c24ab2d70e6d"/>
                 </node>
             </children>
         </node>

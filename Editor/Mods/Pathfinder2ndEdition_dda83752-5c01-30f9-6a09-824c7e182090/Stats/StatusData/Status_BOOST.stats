@@ -7030,7 +7030,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0dfaec7d-fb0e-4bd6-82cc-2d713e3169a2" />
         <field name="Name" type="NameTableFieldDefinition" value="MAGIC_WEAPON" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9698d635g18bdg3317gafb2g9b6103e75a44" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h96c495d9g0e3bgaf9eg5d87g0f9622dbfe86" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h96c495d9g0e3bgaf9eg5d87g0f9622dbfe86" version="2" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGIC_WEAPON" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="0" />
@@ -7062,6 +7062,7 @@
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);Tag(WPN_RUNE_STRIKING_GREATER);IF(Tagged('WPN_RUNE_1',context.Source) and not Tagged('WPN_RUNE_2',context.Source)):WeaponEnchantment(1);IF(not HasAnyTags({'WPN_RUNE_1','WPN_RUNE_2'},context.Source)):WeaponEnchantment(2);IF(IsWeaponDamageDieD4(context.Source)):WeaponDamageDieOverride(3d4-2);IF(IsWeaponDamageDieD6(context.Source)):WeaponDamageDieOverride(3d6-2);IF(IsWeaponDamageDieD8(context.Source)):WeaponDamageDieOverride(3d8-2);IF(IsWeaponDamageDieD10(context.Source)):WeaponDamageDieOverride(3d10-2);IF(IsWeaponDamageDieD12(context.Source)):WeaponDamageDieOverride(3d12-2);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha1386710g9611ga5bbg9575ga73cbdaffbc7" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -295,6 +295,24 @@
                     <attribute id="UUID" type="guid" value="75c30375-efee-4fc3-8df0-4ece197687ae"/>
                 </node>
                 <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hbc40d42cg7b9fg9e4eg6a23ga069cda8262e" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h87d37d96g3ed0gc369gbce3ga444fc2baff2" version="1"/>
+                    <attribute id="SelectorId" type="FixedString" value="ChangeClassFeat1"/>
+                    <attribute id="UUID" type="guid" value="60359a0a-c4ad-4bfd-a089-f2e92ca9c7a8"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hbeaca93egd99egde92g4f82gea49154b0866" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0e11fa30g4f9fg1114ga628g4d5a573eaa70" version="1"/>
+                    <attribute id="SelectorId" type="FixedString" value="ChangeClassFeat2"/>
+                    <attribute id="UUID" type="guid" value="aff5feed-9f61-4da4-bc86-c06380fda375"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h2a89a456g5494g14e2g2fd2g63473984bd55" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h49cde8b2gfbd6gdb03g5632gfc94c868e03f" version="1"/>
+                    <attribute id="SelectorId" type="FixedString" value="ChangeClassFeat4"/>
+                    <attribute id="UUID" type="guid" value="8bdba34c-f763-4bd1-b13c-11159913e711"/>
+                </node>
+                <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="h1cacf02fg42a2g449eg2ef4g0814cdbb9a0f" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h5d5c51f1g743cg0188g4c21g9aa6c8315b8c" version="1"/>
                     <attribute id="SelectorId" type="FixedString" value="GeneralFeat"/>
@@ -489,22 +507,10 @@
                     <attribute id="UUID" type="guid" value="08e3738f-44ed-4eb7-9f7b-ec2310395ace"/>
                 </node>
                 <node id="ProgressionDescription">
-                    <attribute id="Description" type="TranslatedString" handle="hbc40d42cg7b9fg9e4eg6a23ga069cda8262e" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h87d37d96g3ed0gc369gbce3ga444fc2baff2" version="1"/>
-                    <attribute id="SelectorId" type="FixedString" value="ChangeClassFeat1"/>
-                    <attribute id="UUID" type="guid" value="60359a0a-c4ad-4bfd-a089-f2e92ca9c7a8"/>
-                </node>
-                <node id="ProgressionDescription">
-                    <attribute id="Description" type="TranslatedString" handle="hbeaca93egd99egde92g4f82gea49154b0866" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h0e11fa30g4f9fg1114ga628g4d5a573eaa70" version="1"/>
-                    <attribute id="SelectorId" type="FixedString" value="ChangeClassFeat2"/>
-                    <attribute id="UUID" type="guid" value="aff5feed-9f61-4da4-bc86-c06380fda375"/>
-                </node>
-                <node id="ProgressionDescription">
-                    <attribute id="Description" type="TranslatedString" handle="h2a89a456g5494g14e2g2fd2g63473984bd55" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h49cde8b2gfbd6gdb03g5632gfc94c868e03f" version="1"/>
-                    <attribute id="SelectorId" type="FixedString" value="ChangeClassFeat4"/>
-                    <attribute id="UUID" type="guid" value="8bdba34c-f763-4bd1-b13c-11159913e711"/>
+                    <attribute id="Description" type="TranslatedString" handle="h070f7c59g885fg740eg6a76g0a9aa3d439f7" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h019bf289g44bcg0015g1148gca3edcef86b3" version="2"/>
+                    <attribute id="SelectorId" type="FixedString" value="DraconicExemplar"/>
+                    <attribute id="UUID" type="guid" value="8268027d-8d48-4e2b-80de-4c2c17057eb8"/>
                 </node>
             </children>
         </node>

@@ -1427,6 +1427,11 @@ Composite_Breakpoint,ElementalArtillery,WhirlingGrindstone,MoltenWire"/>
                     <attribute id="Passives" type="LSString" value="AcrobaticsExpert,ArcanaExpert,AthleticsExpert,NatureExpert,DeceptionExpert,PersuasionExpert,IntimidationExpert,HistoryExpert,MedicineExpert,AnimalHandlingExpert,InvestigationExpert,PerformanceExpert,InsightExpert,ReligionExpert,StealthExpert,SurvivalExpert,SleightOfHandExpert"/>
                     <attribute id="UUID" type="guid" value="a7ebbeef-e69d-47e3-9bd5-64282be8abdd"/>
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Draconic Exemplar"/>
+                    <attribute id="Passives" type="LSString" value="DraconicExemplar_Adamantine,DraconicExemplar_Conspirator,DraconicExemplar_Diabolic,DraconicExemplar_Empyreal,DraconicExemplar_Fortune,DraconicExemplar_Horned,DraconicExemplar_Mirage,DraconicExemplar_Omen"/>
+                    <attribute id="UUID" type="guid" value="4316070b-40eb-467e-8d6b-5ca764d00286"/>
+                </node>
             </children>
         </node>
     </region>
